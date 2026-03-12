@@ -366,7 +366,7 @@ const ModernLoader: React.FC<ModernLoaderProps> = ({ onFinish }) => {
 
             {/* Main content */}
             <div className='zeus-loader__content'>
-                {/* UNKNOWN TRADERS Logo - Intricate Mechanical BF Initials */}
+                {/* UNKNOWN TRADERS Logo - Intricate Mechanical UT Initials */}
                 <div className='zeus-loader__logo-container'>
                     <svg 
                         width="120" 
@@ -432,51 +432,27 @@ const ModernLoader: React.FC<ModernLoaderProps> = ({ onFinish }) => {
                         <circle cx="60" cy="60" r="35" fill="url(#metalGradient)" opacity="0.9" filter="url(#mechanicalGlow)"/>
                         <circle cx="60" cy="60" r="32" fill="none" stroke="#2563eb" strokeWidth="1" opacity="0.7"/>
 
-                        {/* Letter B - Left side */}
-                        <g className="letter-b" filter="url(#mechanicalGlow)">
-                            {/* B vertical bar */}
-                            <rect x="40" y="35" width="6" height="50" fill="#ffffff" rx="1"/>
+                        {/* Letter U - Left side */}
+                        <g className="letter-u" filter="url(#mechanicalGlow)">
+                            {/* U left vertical bar */}
+                            <rect x="40" y="35" width="6" height="40" fill="#ffffff" rx="1"/>
                             
-                            {/* B top horizontal bar */}
-                            <rect x="46" y="35" width="20" height="6" fill="#ffffff" rx="1"/>
-                            <circle cx="66" cy="38" r="3" fill="url(#accentGradient)">
+                            {/* U right vertical bar */}
+                            <rect x="60" y="35" width="6" height="40" fill="#ffffff" rx="1">
+                                <animate attributeName="height" values="40;42;40" dur="3s" repeatCount="indefinite"/>
+                            </rect>
+                            
+                            {/* U bottom curved connection */}
+                            <path d="M 46 75 Q 53 85 60 75" stroke="#ffffff" strokeWidth="6" fill="none" strokeLinecap="round"/>
+                            <circle cx="53" cy="78" r="3" fill="url(#accentGradient)">
                                 <animate attributeName="r" values="3;4;3" dur="2s" repeatCount="indefinite"/>
                             </circle>
-                            
-                            {/* B middle horizontal bar */}
-                            <rect x="46" y="57" width="18" height="6" fill="#ffffff" rx="1"/>
-                            <circle cx="64" cy="60" r="4" fill="url(#metalGradient)" stroke="#10b981" strokeWidth="1">
-                                <animateTransform 
-                                    attributeName="transform" 
-                                    type="rotate" 
-                                    values="0 64 60;360 64 60" 
-                                    dur="3s" 
-                                    repeatCount="indefinite"
-                                />
-                            </circle>
-                            
-                            {/* B bottom horizontal bar */}
-                            <rect x="46" y="79" width="20" height="6" fill="#ffffff" rx="1"/>
-                            <rect x="66" y="80" width="8" height="4" fill="url(#accentGradient)" rx="1">
-                                <animateTransform 
-                                    attributeName="transform" 
-                                    type="translate" 
-                                    values="0,0;3,0;0,0" 
-                                    dur="2.5s" 
-                                    repeatCount="indefinite"
-                                />
-                            </rect>
                         </g>
 
-                        {/* Letter F - Right side */}
-                        <g className="letter-f" filter="url(#mechanicalGlow)">
-                            {/* F vertical bar */}
-                            <rect x="74" y="35" width="6" height="50" fill="#ffffff" rx="1">
-                                <animate attributeName="height" values="50;52;50" dur="4s" repeatCount="indefinite"/>
-                            </rect>
-                            
-                            {/* F top horizontal bar */}
-                            <rect x="80" y="35" width="18" height="6" fill="#ffffff" rx="1"/>
+                        {/* Letter T - Right side */}
+                        <g className="letter-t" filter="url(#mechanicalGlow)">
+                            {/* T top horizontal bar */}
+                            <rect x="74" y="35" width="24" height="6" fill="#ffffff" rx="1"/>
                             <circle cx="98" cy="38" r="3" fill="url(#metalGradient)" stroke="#4a90e2" strokeWidth="1">
                                 <animateTransform 
                                     attributeName="transform" 
@@ -487,8 +463,21 @@ const ModernLoader: React.FC<ModernLoaderProps> = ({ onFinish }) => {
                                 />
                             </circle>
                             
-                            {/* F middle horizontal bar */}
-                            <rect x="80" y="57" width="15" height="6" fill="#ffffff" rx="1"/>
+                            {/* T vertical bar */}
+                            <rect x="83" y="41" width="6" height="44" fill="#ffffff" rx="1">
+                                <animate attributeName="height" values="44;46;44" dur="4s" repeatCount="indefinite"/>
+                            </rect>
+                            
+                            {/* T decorative element */}
+                            <rect x="81" y="70" width="10" height="4" fill="url(#accentGradient)" rx="1">
+                                <animateTransform 
+                                    attributeName="transform" 
+                                    type="translate" 
+                                    values="0,0;2,0;0,0" 
+                                    dur="2.5s" 
+                                    repeatCount="indefinite"
+                                />
+                            </rect>
                         </g>
 
                         {/* Central power core */}
