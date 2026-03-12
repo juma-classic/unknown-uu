@@ -1,6 +1,6 @@
 <svg width="200" height="80" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bramGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="unknownGradient" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
       <stop offset="50%" style="stop-color:#3b82f6;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
@@ -20,15 +20,15 @@
   </defs>
   
   <!-- Background geometric pattern -->
-  <rect x="0" y="0" width="200" height="80" fill="url(#bramGradient)" opacity="0.1" rx="8"/>
+  <rect x="0" y="0" width="200" height="80" fill="url(#unknownGradient)" opacity="0.1" rx="8"/>
   
-  <!-- BRAM text -->
+  <!-- UNKNOWN text -->
   <text x="20" y="50" font-family="Arial, sans-serif" font-size="32" font-weight="bold" 
-        fill="url(#bramGradient)" filter="url(#glow)">BRAM</text>
+        fill="url(#unknownGradient)" filter="url(#glow)">UNKNOWN</text>
   
-  <!-- FX text -->
+  <!-- TRADERS text -->
   <text x="130" y="50" font-family="Arial, sans-serif" font-size="32" font-weight="bold" 
-        fill="url(#fxGradient)" filter="url(#glow)">FX</text>
+        fill="url(#fxGradient)" filter="url(#glow)">TRADERS</text>
   
   <!-- Decorative elements -->
   <circle cx="115" cy="25" r="3" fill="#2563eb" opacity="0.6">

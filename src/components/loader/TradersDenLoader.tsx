@@ -15,7 +15,7 @@ export const TradersDenLoader: React.FC<TradersDenLoaderProps> = ({ onLoadComple
         'Initializing Trading Core...',
         'Synchronizing Market Algorithms...',
         'Calibrating Trading Mechanisms...',
-        'Access Granted. Welcome to Bram FX.',
+        'Access Granted. Welcome to UNKNOWN TRADERS.',
     ];
 
 
@@ -59,7 +59,7 @@ export const TradersDenLoader: React.FC<TradersDenLoaderProps> = ({ onLoadComple
     }, [duration, onLoadComplete, statuses.length]);
 
     return (
-        <div className={`plenty-fx-loader ${isComplete ? 'fade-out' : ''}`}>
+        <div className={`unknown-traders-loader ${isComplete ? 'fade-out' : ''}`}>
             {/* Particle Background */}
             <div className='particle-background'>
                 {[...Array(30)].map((_, i) => (
@@ -146,7 +146,7 @@ export const TradersDenLoader: React.FC<TradersDenLoaderProps> = ({ onLoadComple
                     <div className='svg-logo-container'>
                         <svg width="200" height="80" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
                             <defs>
-                                <linearGradient id="bramGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <linearGradient id="unknownGradient" x1="0%" y1="0%" x2="100%" y2="100%">
                                     <stop offset="0%" style={{stopColor:"#2563eb", stopOpacity:1}} />
                                     <stop offset="50%" style={{stopColor:"#3b82f6", stopOpacity:1}} />
                                     <stop offset="100%" style={{stopColor:"#1d4ed8", stopOpacity:1}} />
@@ -166,15 +166,15 @@ export const TradersDenLoader: React.FC<TradersDenLoaderProps> = ({ onLoadComple
                             </defs>
                             
                             {/* Background geometric pattern */}
-                            <rect x="0" y="0" width="200" height="80" fill="url(#bramGradient)" opacity="0.1" rx="8"/>
+                            <rect x="0" y="0" width="200" height="80" fill="url(#unknownGradient)" opacity="0.1" rx="8"/>
                             
-                            {/* BRAM text */}
+                            {/* UNKNOWN text */}
                             <text x="20" y="50" fontFamily="Arial, sans-serif" fontSize="32" fontWeight="bold" 
-                                  fill="url(#bramGradient)" filter="url(#glow)">BRAM</text>
+                                  fill="url(#unknownGradient)" filter="url(#glow)">UNKNOWN</text>
                             
-                            {/* FX text */}
+                            {/* TRADERS text */}
                             <text x="130" y="50" fontFamily="Arial, sans-serif" fontSize="32" fontWeight="bold" 
-                                  fill="url(#fxGradient)" filter="url(#glow)">FX</text>
+                                  fill="url(#fxGradient)" filter="url(#glow)">TRADERS</text>
                             
                             {/* Decorative elements */}
                             <circle cx="115" cy="25" r="3" fill="#2563eb" opacity="0.6">

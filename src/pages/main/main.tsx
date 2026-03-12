@@ -677,7 +677,7 @@ const AppWrapper = observer(() => {
                 'PATEL (with Entry).xml',
                 'Raziel Over Under.xml',
                 
-                // New Bram FX Bots Collection
+                // New UNKNOWN TRADERS Bots Collection
                 '2-poerverty keller.xml',
                 'AUTO Even Odd AI By Bram (1).xml',
                 'AUTO Even Odd AI By Bram.xml',
@@ -3249,7 +3249,7 @@ const AppWrapper = observer(() => {
                                                 }}
                                             />
                                         )}
-                                        <span style={{ position: 'relative', zIndex: 1 }}>⚡ BRAM AI</span>
+                                        <span style={{ position: 'relative', zIndex: 1 }}>⚡ UNKNOWN AI</span>
                                     </button>
 
                                     <button
@@ -3603,7 +3603,7 @@ const AppWrapper = observer(() => {
                                 </div>
                             </div>
                         </div>
-                        {/* BRAM ANALYSIS TAB - MOVED TO ANALYSIS TOOL */}
+                        {/* UNKNOWN ANALYSIS TAB - MOVED TO ANALYSIS TOOL */}
                         {/* SIGNALS TAB */}
                         <div
                             label={

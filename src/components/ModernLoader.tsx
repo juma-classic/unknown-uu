@@ -23,7 +23,7 @@ const ModernLoader: React.FC<ModernLoaderProps> = ({ onFinish }) => {
         'Navigate markets with confidence',
         'Fast execution, reliable returns',
         'Growing your portfolio steadily',
-        'Bram FX - Your path to financial freedom',
+        'UNKNOWN TRADERS - Your path to financial freedom',
         'Elevate your trading experience',
     ];
 
@@ -288,7 +288,7 @@ const ModernLoader: React.FC<ModernLoaderProps> = ({ onFinish }) => {
             { duration: 900, text: 'Activating Trading Signals', progress: 70 },
             { duration: 700, text: 'Loading Strategies', progress: 85 },
             { duration: 600, text: 'Preparing Dashboard', progress: 95 },
-            { duration: 500, text: 'Welcome to Bram FX', progress: 100 },
+            { duration: 500, text: 'Welcome to UNKNOWN TRADERS', progress: 100 },
         ];
 
         let currentPhase = 0;
@@ -366,7 +366,7 @@ const ModernLoader: React.FC<ModernLoaderProps> = ({ onFinish }) => {
 
             {/* Main content */}
             <div className='zeus-loader__content'>
-                {/* Bram FX Logo - Intricate Mechanical BF Initials */}
+                {/* UNKNOWN TRADERS Logo - Intricate Mechanical BF Initials */}
                 <div className='zeus-loader__logo-container'>
                     <svg 
                         width="120" 
@@ -624,8 +624,8 @@ const ModernLoader: React.FC<ModernLoaderProps> = ({ onFinish }) => {
 
                 {/* Brand name */}
                 <h1 className='zeus-loader__brand'>
-                    <span className='zeus-loader__brand-zeus'>BRAM</span>
-                    <span className='zeus-loader__brand-trading'>FX</span>
+                    <span className='zeus-loader__brand-zeus'>UNKNOWN</span>
+                    <span className='zeus-loader__brand-trading'>TRADERS</span>
                 </h1>
 
                 <p className='zeus-loader__tagline'>Professional Trading Platform</p>

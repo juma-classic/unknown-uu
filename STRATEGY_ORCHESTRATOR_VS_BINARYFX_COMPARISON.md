@@ -184,7 +184,7 @@ Both systems are designed for trading automation on Deriv, but they serve differ
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                    BRAM FX                          │
+│                    UNKNOWN TRADERS                          │
 └─────────────────────────────────────────────────────────────┘
                               │
                               ▼

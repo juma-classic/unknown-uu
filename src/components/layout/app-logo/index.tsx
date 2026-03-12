@@ -11,9 +11,9 @@ export const AppLogo = () => {
             href='https://www.mozaictradinghub.com/'
             target='_blank'
             rel='noopener noreferrer'
-            className='app-header__logo plenty-fx-logo'
+            className='app-header__logo unknown-traders-logo'
         >
-            <span className='plenty-fx-text'>Bram FX</span>
+            <span className='unknown-traders-text'>UNKNOWN TRADERS</span>
         </a>
     );
 };
