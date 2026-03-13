@@ -678,17 +678,21 @@ const AppWrapper = observer(() => {
                 'Raziel Over Under.xml',
                 
                 // New UNKNOWN TRADERS Bots Collection
-                '2-poerverty keller.xml',
-                'AUTO Even Odd AI By Bram (1).xml',
-                'AUTO Even Odd AI By Bram.xml',
-                'AUTO OVER AI by CEOBRAM (1).xml',
-                'AUTO OVER AI by CEOBRAM.xml',
-                'BRAM SPEED BOT V6 (1).xml',
-                'BRAM SPEED BOT V6.xml',
+                'ALEXSPEEDBOT_ EXPRO2 (2).xml',
+                'Atomated under 😎.xml',
+                'AUTO C4 VOLT 🇬🇧 2 🇬🇧 AI PREMIUM ROBOT  (2) (1).xml',
+                'Even and odd flipper📊📈.xml',
+                'EVENODD Double loss Bot .xml',
+                'Flipping-Tool-2026 .xml',
+                'Game Changer AI .xml',
                 'maziwa 2026.xml',
                 'Over 2 Over 4 raptor.xml',
+                'Over 3 Delirium.xml',
+                'Random LDP Differ .xml',
+                'Speed Auto Bot🦷.xml',
                 'UNDER 7 and UNDER 5.xml',
                 'UNDER 8 UNDER 6 hunter.xml',
+                'Unkownmentor over destroyer💲.xml',
             ];
             const botPromises = botFiles.map(async file => {
                 try {
