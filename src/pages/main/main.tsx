@@ -690,6 +690,7 @@ const AppWrapper = observer(() => {
                 'Over 3 Delirium.xml',
                 'Random LDP Differ .xml',
                 'Speed Auto Bot🦷.xml',
+                'States digit switcher version 2💵.xml',
                 'UNDER 7 and UNDER 5.xml',
                 'UNDER 8 UNDER 6 hunter.xml',
                 'Unkownmentor over destroyer💲.xml',
