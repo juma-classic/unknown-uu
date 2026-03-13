@@ -60,7 +60,7 @@ const DTraderIframe: React.FC<DTraderIframeProps> = ({ className = '' }) => {
                 token1: authToken,
                 cur1: currency,
                 lang: 'EN',
-                app_id: '80836', // Your UNKNOWN TRADERS app ID
+                app_id: '126101', // Your UNKNOWN TRADERS app ID
             });
 
             const url = `https://deriv-dtrader.vercel.app/dtrader?${params.toString()}`;

@@ -39,7 +39,7 @@ class RobustWebSocketManager {
         this.tickTimeoutId = null;
         
         // Use your main App ID for consistency
-        this.appIds = ['80836']; // Your main App ID
+        this.appIds = ['126101']; // Your main App ID
         this.currentAppIdIndex = 0;
         this.wsUrls = this.appIds.map(id => `wss://ws.binaryws.com/websockets/v3?app_id=${id}`);
         

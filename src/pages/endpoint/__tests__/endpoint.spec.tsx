@@ -50,6 +50,6 @@ describe('<Endpoint />', () => {
 
     const { app_id, server_url } = getDefaultAppIdAndUrl();
     expect(localStorage.getItem('config.server_url') ?? '').toBe(server_url);
-    expect(localStorage.getItem('config.app_id') ?? '').toBe('80836');
+    expect(localStorage.getItem('config.app_id') ?? '').toBe('126101');
     });
 });

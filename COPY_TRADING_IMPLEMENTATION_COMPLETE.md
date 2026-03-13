@@ -135,7 +135,7 @@ class CopyTradingManager {
 - Uses existing `robust-websocket-manager.js`
 - Integrates with main app authentication
 - Reads token from localStorage (`active_loginid_token`)
-- Uses app ID 80836 (UNKNOWN TRADERS)
+- Uses app ID 126101 (UNKNOWN TRADERS)
 
 ### Navigation Integration
 - Added Copy Trading tab after DTrader

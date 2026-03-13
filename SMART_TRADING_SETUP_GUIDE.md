@@ -77,7 +77,7 @@ The system needs a Deriv API token to execute trades. You have two options:
 
 ### Step 2: Configure App ID
 
-The default App ID is `80836`. If you want to use your own:
+The default App ID is `126101`. If you want to use your own:
 
 1. Register your app at https://api.deriv.com/app-registration
 2. Get your App ID
@@ -180,12 +180,12 @@ Example with base stake $1 and multiplier 2:
 
 The system uses two WebSocket connections:
 
-1. **Market Analyzer**: `wss://ws.derivws.com/websockets/v3?app_id=80836`
+1. **Market Analyzer**: `wss://ws.derivws.com/websockets/v3?app_id=126101`
    - Purpose: Real-time tick data
    - No authentication required
    - Subscribes to tick history
 
-2. **Trading Executor**: `wss://ws.binaryws.com/websockets/v3?app_id=80836`
+2. **Trading Executor**: `wss://ws.binaryws.com/websockets/v3?app_id=126101`
    - Purpose: Trade execution
    - Requires authentication token
    - Executes buy contracts
